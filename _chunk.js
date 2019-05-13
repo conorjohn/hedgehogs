@@ -9,7 +9,11 @@ const chunk = (array, number) => {
         index += number;
     }
 
+    return newArr;
     // Find a solution using map, filter and/or reduce?
 }
 
-chunk([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 3);
+module.exports = {
+    chunk: chunk
+}
+// chunk([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 3);

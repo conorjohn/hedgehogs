@@ -11,4 +11,8 @@ const unique = (array) => {
     // Now add an orderedUnique function that returns the items in the array in an ordered fashion
 }
 
-unique([5, 5, 3, 4, 2, 1, 5, 4, 3, 4]);
+module.exports = {
+    unique: unique
+}
+
+// unique([5, 5, 3, 4, 2, 1, 5, 4, 3, 4]);
