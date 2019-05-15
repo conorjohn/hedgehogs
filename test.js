@@ -1,0 +1,1 @@
+let _ = require('./index');
