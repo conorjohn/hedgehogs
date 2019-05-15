@@ -3,7 +3,8 @@ module.exports = {
     reverse: require('./_reverse').reverse,
     concat: require('./_reverse').concat,
     compact: require('./_compact').compact,
-    chunk: require('./_chunk').chunk
+    chunk: require('./_chunk').chunk,
+    flatten: require('./_flatten').flatten
 }
 
 /**
