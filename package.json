@@ -1,0 +1,24 @@
+{
+  "name": "hedgehogs",
+  "version": "1.0.0",
+  "description": "Manipulating arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conorjohn/hedgehogs.git"
+  },
+  "keywords": [
+    "Array",
+    "JS",
+    "JavaScript"
+  ],
+  "author": "Conor O'Reilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conorjohn/hedgehogs/issues"
+  },
+  "homepage": "https://github.com/conorjohn/hedgehogs#readme"
+}
