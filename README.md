@@ -7,3 +7,5 @@ This library is aiming to be a functional way of processing and iterating over a
 
 # Use Hedgehogs in your project to help you manage arrays
 Install via `npm install headgehogs --save` 
+
+![](https://media.giphy.com/media/lqc9KIoGHJJSM/giphy.gif)
