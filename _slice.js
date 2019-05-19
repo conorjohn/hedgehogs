@@ -5,8 +5,10 @@
  * @param {Array} array 
  * @param {Number} startPos 
  * @param {String} endPos 
- * 
  * @return {Array}
+ * 
+ * @example
+ *  slice([1, 2, 3, 4, 5, 6, 7], 3, 6)
  */
 const slice = (array, startPos, endPos) => {
     return array.slice(startPos, endPos);

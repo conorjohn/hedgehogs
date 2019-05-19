@@ -4,7 +4,11 @@
  * 
  * @param {Array} array 
  * @return {Array}
+ * 
+ * @example
+ *  reverse([0,1,2,3,4,5,6,7,8])
  */
+
 const reverse = (array) => {
     let newArray = [];
     for (let i = array.length - 1; i > 0; i--) {
@@ -16,4 +20,3 @@ const reverse = (array) => {
 module.exports = {
     reverse: reverse
 }
-// chunk([0,1,2,3,4,5,6,7,8]);
