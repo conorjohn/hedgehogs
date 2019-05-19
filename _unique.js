@@ -1,8 +1,16 @@
+/**
+ * A function that returns only unique values
+ * by filtering out any duplicates
+ * 
+ * @param {Array} array 
+ * @return {Array}
+ */
+
 const unique = (array) => {
     // Only return unique values/remove duplicates
     let newArr = [];
     array.forEach(element => {
-        if(!newArr.includes(element)) {
+        if (!newArr.includes(element)) {
             newArr.push(element);
         }
     });

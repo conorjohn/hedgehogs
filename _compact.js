@@ -1,6 +1,9 @@
+/**
+ * This returns an array with all falsey values removed. 
+ * The values false, null, 0, "", undefined, and NaN are falsey.
+ * @param {Array} arr 
+ */
 const compact = (arr) => {
-    // Creates an array with all falsey values removed. 
-    // The values false, null, 0, "", undefined, and NaN are falsey.
     return arr.filter(item => item);
 }
 
