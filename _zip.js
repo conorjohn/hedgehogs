@@ -1,4 +1,8 @@
-// Read Lodash docs on this
+/**
+ * 
+ * @param { Array } array 
+ * @return { Array }
+ */
 const zip = (array) => {
     let newArr = [];
     
