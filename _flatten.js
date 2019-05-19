@@ -18,6 +18,7 @@ const flatten = (array) => {
     return newArr;
 }
 
+// TODO: flattenDeep and flattenDepth
 module.exports = {
     flatten: flatten
 }
