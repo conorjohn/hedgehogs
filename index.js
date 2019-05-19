@@ -1,10 +1,12 @@
 module.exports = {
-    unique: require('./_unique.js').unique,
-    reverse: require('./_reverse').reverse,
-    concat: require('./_reverse').concat,
-    compact: require('./_compact').compact,
-    chunk: require('./_chunk').chunk,
-    flatten: require('./_flatten').flatten
+    chunk: require('./src/_chunk').chunk,
+    compact: require('./src/_compact').compact,
+    concat: require('./src/_reverse').concat,
+    flatten: require('./src/_flatten').flatten,
+    nth: require('./src/_nth').nth,
+    reverse: require('./src/_reverse').reverse,
+    slice: require('./src/_slice').slice,
+    unique: require('./src/_unique.js').unique,
 }
 
 /**
