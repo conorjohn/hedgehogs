@@ -13,6 +13,6 @@ module.exports = {
  * TODO Next Steps:
  * 1. Add 5 more functions
  * 2. Tidy up and compare to Lodash
- * 3. Add documentation
+ * 3. Add documentation - done
  * 4. Add to NPM - done
  **/
