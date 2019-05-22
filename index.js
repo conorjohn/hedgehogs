@@ -15,4 +15,5 @@ module.exports = {
  * 2. Tidy up and compare to Lodash
  * 3. Add documentation - done
  * 4. Add to NPM - done
+ * 5. Build in accordance with https://github.com/umdjs/umd
  **/
