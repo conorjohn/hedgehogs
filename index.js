@@ -3,6 +3,7 @@ module.exports = {
     compact: require('./src/_compact').compact,
     concat: require('./src/_reverse').concat,
     flatten: require('./src/_flatten').flatten,
+    head: require('./src/_head').head,
     join: require('./src/_join').join,
     nth: require('./src/_nth').nth,
     reverse: require('./src/_reverse').reverse,
