@@ -6,9 +6,11 @@ module.exports = {
     head: require('./src/_head').head,
     join: require('./src/_join').join,
     nth: require('./src/_nth').nth,
+    remove: require('./src/_remove').remove,
     reverse: require('./src/_reverse').reverse,
     slice: require('./src/_slice').slice,
     unique: require('./src/_unique.js').unique,
+    cloneDeep: require('./src/_cloneDeep.js').cloneDeep
 }
 
 /**

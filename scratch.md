@@ -1,0 +1,1 @@
+> defining input types into functions: https://stackoverflow.com/questions/28009771/annotate-javascript-function-parameters
