@@ -7,6 +7,7 @@ module.exports = {
     reverse: require('./src/_reverse').reverse,
     slice: require('./src/_slice').slice,
     unique: require('./src/_unique.js').unique,
+    cloneDeep: require('./src/_cloneDeep.js').cloneDeep
 }
 
 /**
