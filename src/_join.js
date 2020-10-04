@@ -16,3 +16,7 @@ const join = (array, separator = ' ') => {
     });
     return str;
 }
+
+module.exports = {
+    join: join
+}

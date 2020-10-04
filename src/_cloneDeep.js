@@ -1,5 +1,5 @@
 /**
- * TODO: INCOMPLETE
+ * STATUS: WIP
  * 
  * @param {Array} array 
  * @return {Array}
@@ -8,7 +8,15 @@
  * var objects = [{ 'a': 1 }, { 'b': 2 }];
  * var deep = _.cloneDeep(objects);
  * console.log(deep[0] === objects[0]);
- * // => false 
+ * 
+ * This solution appears to work correctly, no function loss or apparant data loss
+ * will use this as an opportunity to study copying data in JS more thoroughly
+ * 
+ * @example
+ * let orig = [{a: 1, b: () => { console.log('something') }, c: 'yurt'}, {d: "Title", e: 5, f: (elm) => console.log('variabe passing through: ', elm)}];
+ * let clone = cloneDeep(orig);
+ *
+ * console.log('Are they both equal: ', orig === clone);
  */
 
 //  Good Stackoverflow answer: https://stackoverflow.com/questions/4459928/how-to-deep-clone-in-javascript
@@ -17,14 +25,19 @@
 const cloneDeep = (array) => {
     // Value Check
     if(!array) { return array }
-    
+    let newArr = [];
     // Data Type Check
     const types = [Number, String, Boolean, Array, Object];
-    return JSON.parse(JSON.stringify(array));
-}
-let orig = [{a: 1, b: () => { console.log('something') }, c: 'yurt'}];
-orig[0].b();
+    
+    // Is this good enough?
+    array.forEach(object => {
+        newArr.push(Object.assign({}, object));
+    });
 
-let clone = cloneDeep(orig);
-// clone[0].b() no longer exists
-console.log(clone);
+    return newArr;
+}
+
+module.exports = {
+    cloneDeep: cloneDeep 
+}
+
